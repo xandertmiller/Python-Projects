@@ -1,0 +1,12 @@
+#Auto Insurance Company Input Form
+
+Company_Name = input("Please fill out company name>> ")
+Employee_Count = input("Please type how many employees are at your company>> ")
+Company_Location = input("Please fill out company location, including city or state>> ")
+Lowest_Price = input("Please fill out the lowest available price for a policy>> ")
+Highest_Price = input("Please fill out the highest available price for a policy>> ")
+print(f'We are company {Company_Name} located in {Company_Location}. Our {Employee_Count} employees can help you find the policy that is right for you with policies ranging from {Lowest_Price} to {Highest_Price} per month!')
+
+
+
+#Assignment from Python for Cybersecurity Udemy Course by Lloyd Ramsey
